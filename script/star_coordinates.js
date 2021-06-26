@@ -136,7 +136,7 @@ d3.json("data/star-coord.json").then(function(data) {
         .attr("transform", "rotate(0)")
         .attr('transform', 'translate(' + -10 + ',' + -620 + ')')
         .text("x1")
-        .style('fill', 'red')
+        .style('fill', '#FB495D')
         .style('stroke', 'black')
         .style('stroke-width', 0.3)
         .style('font-size', 18);
@@ -147,7 +147,7 @@ d3.json("data/star-coord.json").then(function(data) {
         .attr("transform", "rotate(0)")
         .attr('transform', 'translate(' + 290 + ',' + -410 + ')')
         .text("x2")
-        .style('fill', 'green')
+        .style('fill', '#0C2C84')
         .style('stroke', 'black')
         .style('stroke-width', 0.3)        
         .style('font-size', 18);
@@ -158,7 +158,7 @@ d3.json("data/star-coord.json").then(function(data) {
         .attr("transform", "rotate(0)")
         .attr('transform', 'translate(' + 180 + ',' + -65 + ')')
         .text("x3")
-        .style('fill', 'blue')
+        .style('fill', '#7FC97F')
         .style('stroke', 'black')
         .style('stroke-width', 0.3)
         .style('font-size', 18);
@@ -169,7 +169,7 @@ d3.json("data/star-coord.json").then(function(data) {
         .attr("transform", "rotate(0)")
         .attr('transform', 'translate(' + -195 + ',' + -65 + ')')
         .text("x4")
-        .style('fill', 'pink')
+        .style('fill', '#FEB24C')
         .style('stroke', 'black')
         .style('stroke-width', 0.3)
         .style('font-size', 18);
@@ -180,7 +180,7 @@ d3.json("data/star-coord.json").then(function(data) {
         .attr("transform", "rotate(0)")
         .attr('transform', 'translate(' + -295 + ',' + -410 + ')')
         .text("x5")
-        .style('fill', 'yellow')
+        .style('fill', '#BEAED4')
         .style('stroke', 'black')
         .style('stroke-width', 0.3)
         .style('font-size', 18);
@@ -198,7 +198,7 @@ d3.json("data/star-coord.json").then(function(data) {
         .on("click", function(i, d) {
             console.log(d);
             svg.selectAll(".line").remove();
-            var colors = ["red", "green", "blue", "pink", "yellow"];
+            var colors = ["#FB495D", "#0C2C84", "#7FC97F", "#FEB24C", "#BEAED4"];
             colors.forEach( function(color, i)
             {
                 var path = svg
