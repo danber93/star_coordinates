@@ -138,8 +138,8 @@ d3.json("data/star-coord.json").then(function(data) {
         .text("x1")
         .style('fill', '#FB495D')
         .style('stroke', 'black')
-        .style('stroke-width', 0.3)
-        .style('font-size', 18);
+        .style('stroke-width', 0.1)
+        .style('font-size', 20);
 
     svg.append("text")
         .attr("class", "x2 label")
@@ -149,8 +149,8 @@ d3.json("data/star-coord.json").then(function(data) {
         .text("x2")
         .style('fill', '#0C2C84')
         .style('stroke', 'black')
-        .style('stroke-width', 0.3)        
-        .style('font-size', 18);
+        .style('stroke-width', 0.1)        
+        .style('font-size', 20);
 
     svg.append("text")
         .attr("class", "x3 label")
@@ -160,8 +160,8 @@ d3.json("data/star-coord.json").then(function(data) {
         .text("x3")
         .style('fill', '#7FC97F')
         .style('stroke', 'black')
-        .style('stroke-width', 0.3)
-        .style('font-size', 18);
+        .style('stroke-width', 0.1)
+        .style('font-size', 20);
         
     svg.append("text")
         .attr("class", "x4 label")
@@ -171,7 +171,7 @@ d3.json("data/star-coord.json").then(function(data) {
         .text("x4")
         .style('fill', '#FEB24C')
         .style('stroke', 'black')
-        .style('stroke-width', 0.3)
+        .style('stroke-width', 0.1)
         .style('font-size', 18);
 
     svg.append("text")
@@ -182,8 +182,8 @@ d3.json("data/star-coord.json").then(function(data) {
         .text("x5")
         .style('fill', '#BEAED4')
         .style('stroke', 'black')
-        .style('stroke-width', 0.3)
-        .style('font-size', 18);
+        .style('stroke-width', 0.1)
+        .style('font-size', 20);
             
     var points = svg.selectAll(".points").data(dataset)
         .enter()
